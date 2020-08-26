@@ -35,9 +35,7 @@ html_logo = './_static/sfepy_logo.png'
 # ones.
 extensions = [
     'sphinx.ext.intersphinx',
-    # 'sphinx.ext.imgmath',
-    'sphinx.ext.pngmath',
-
+    'sphinx.ext.imgmath',
     'sphinx.ext.extlinks',
     'sphinx_rtd_theme',
 ]
@@ -108,7 +106,7 @@ html_context = {
     'menu_links_name': 'Connections',
     'menu_links': [
         ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/sfepy/example_perfusion_BD2B'),
-        ('<i class="fa fa-file-text fa-fw"></i> The Paper', 'https://doi.org/10.1016/j.camwa.2019.04.004'),
+#        ('<i class="fa fa-file-text fa-fw"></i> The Paper', 'https://doi.org/10.1016/j.camwa.2019.04.004'),
         ('<i class="fa fa-external-link fa-fw"></i> SfePy', 'https://sfepy.org'),
     ],
 }
@@ -148,7 +146,7 @@ htmlhelp_basename = 'example_perfusion_BD2B'
 latex_elements = {
 }
 
-pngmath_latex_preamble = r"""
+imgmath_latex_preamble = r"""
 \usepackage{bm}
 \def\Om{\Omega}
 \def\sigmab{\boldsymbol{\sigma}}

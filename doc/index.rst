@@ -64,7 +64,7 @@ in following text to simplify the notation.
 
 
 The mechanical behavior of such a structure can be described using the
-two-level asymptotic homogenization method, (for more detailed explanaition we  refer to [RohanTurjanicovaLukes2019]_).
+two-level asymptotic homogenization method, (for more detailed explanaition we  refer to [RohanTurjanicovaLukes2020]_).
 
 The mechanical properties of the deformable matrix are given by elasticity tensor :math:`\Db=(D_{ijkl})` which satisfies
 the usual symmetries.
@@ -367,7 +367,7 @@ visualised by its outline.
    :align: center
    :figclass: align-center
 
-      Macroscopic sample and the resulting macroscopic fields: left -  displacement
+   Macroscopic sample and the resulting macroscopic fields: left -  displacement
    :math:`\ub` field at different computational times; right - pressure
    :math:`p` field  at different computational times.
 

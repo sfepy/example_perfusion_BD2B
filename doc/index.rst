@@ -1,4 +1,4 @@
-.. example_poropiezo documentation master file, created by
+.. example_BD2B documentation master file, created by
    sphinx-quickstart on Thu Mar 12 09:03:54 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -7,8 +7,7 @@
    :maxdepth: 2
    :caption: Contents:
 
-Numerical simulation of parallel flows in deformable double porous media
-========================================================================
+Multiscale numerical modelling of perfusion in deformable double porous media described by the Biot-Darcy-Brinkman model ========================================================================================================================
 
 Mathematical model
 ------------------

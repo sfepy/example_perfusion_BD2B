@@ -259,7 +259,7 @@ and :math:`\psib`
    +\int_\Omega \nabla q\cdot \left[\Kcalb(\nabla_xp^0-\fb^f)-\sum\limits_{\beta=1,2}\Pcalb^\beta\wb^{0,\beta}\right]\,\dV
    &= -\int_{\partial_w\Omega} q (\bar\phi_m\bar\phi_f\bar w_n^{mic}+\sum\limits_{\beta=1,2}\bar\phi_\beta\bar w_n^{mes,\beta}) \,\dV,\\
    \int_{\Omega}\eebx{\psib}:\Scalb^\alpha\eebx{\wb^{0,\alpha}+\dot\ub^0}\,\dV
-   +\int_\Omega\psib\cdot\left[(\Pcalb^\alpha)^T(\nabla_xp^0-\fb^f) + \sum\limits_{\beta=1,2} \Hcalb^{\alpha\beta}\wb^{0,\beta} \right]&=0,\dV.
+   +\int_\Omega\psib\cdot\left[(\Pcalb^\alpha)^T(\nabla_xp^0-\fb^f) + \sum\limits_{\beta=1,2} \Hcalb^{\alpha\beta}\wb^{0,\beta} \right]\,\dV&=0.
 
 The Dirichlet boundary conditions prescribed for :math:`\ub^0` and :math:`\wb^0` can be imposed,
 
@@ -287,7 +287,7 @@ For the purpose of this example, we simplify the problem :eq:`eq-macro2`. We omi
 :math:`\fb^f` and :math:`\fb^{blk}` and surface tractions :math:`\gb`. Also we will consider
 closed micropores on the whole boundary :math:`\partial\Om`, *i.e.* :math:`w_n^{mic}=0`.
 The problem :eq:`eq-macro` becomes:
-Find the macroscopic displacements :math:`\ub^0`, :math:`velocity \wb^{0,\beta}` and pressure fields
+Find the macroscopic displacements :math:`\ub^0`, velocity :math:`\wb^{0,\beta}` and pressure fields
 :math:`p^0` such that for all :math:`\vb^0`, :math:`q^0` and :math:`\psib^0`
 
 .. math::
@@ -295,12 +295,12 @@ Find the macroscopic displacements :math:`\ub^0`, :math:`velocity \wb^{0,\beta}`
 
    \int_{\Omega} \left[\Acalb \eebx{\ub^0} - p^0 \Bcalb^T\right]: \eebx{\vb}\,\dV
    - \sum\limits_\alpha \int_{\Omega}\vb\cdot \left[(\Pcalb^\alpha)^T(\nabla_xp^0-\fb^f)
-   + \sum\limits_{\beta=1,2} \Hcalb^{\alpha\beta}\wb^{0,\beta}\right]\,\dV &=  0\,\dV,\\
+   + \sum\limits_{\beta=1,2} \Hcalb^{\alpha\beta}\wb^{0,\beta}\right]\,\dV &=  0,\\
    \int_{\Omega} q\left[\Bcalb:\eebx{\dot\ub^0} + \dot p^0 \Mcal\right] \dV
    +\int_\Omega \nabla q\cdot \left[\Kcalb(\nabla_xp^0-\fb^f)-\sum\limits_{\beta=1,2}\Pcalb^\beta\wb^{0,\beta}\right]\,\dV
    &= -\int_{\partial_w\Omega} q \sum\limits_{\beta=1,2}\bar\phi_\beta\bar w_n^{mes,\beta} \,\dV,\\
    \int_{\Omega}\eebx{\psib}:\Scalb^\alpha\eebx{\wb^{0,\alpha}+\dot\ub^0}\,\dV
-   +\int_\Omega\psib\cdot\left[(\Pcalb^\alpha)^T(\nabla_xp^0-\fb^f) + \sum\limits_{\beta=1,2} \Hcalb^{\alpha\beta}\wb^{0,\beta} \right]&=0,\dV.
+   +\int_\Omega\psib\cdot\left[(\Pcalb^\alpha)^T(\nabla_xp^0-\fb^f) + \sum\limits_{\beta=1,2} \Hcalb^{\alpha\beta}\wb^{0,\beta} \right]\,\dV&=0.
 
 
 The initial conditions of fields :math:`\ub^0` and :math:`p^0` are necessary for computation of time dependent problem
@@ -357,7 +357,7 @@ The resulting macroscopic pressure field :math:`p`, displacement :math:`\ub` and
 :math:`\wb^\alpha, \alpha=1,2` are depicted in :numref:`fig_macro_results1`, :numref:`fig_macro_results2`
 and :numref:`fig_macro_results1`. These figures depict distribution of macroscopic quantities on
 the deformingin at macroscopic specimen at different computational times
-(:math:`t=0.0`s, :math:`t=0.45`s and :math:`t=T=1.0`s). The nondeformed shape of macroscopic specimen is
+(:math:`t=0.0\,s`, :math:`t=0.45\,s` and :math:`t=T=1.0\,s`). The nondeformed shape of macroscopic specimen is
 visualised by its outline.
 
 .. _fig_macro_results1:

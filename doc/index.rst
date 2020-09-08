@@ -25,7 +25,7 @@ channels occupying domains :math:`\Om_\alpha^\delta, \alpha=1,2`, whereby :math:
 and by domain :math:`\Om_m^\delta=\Om\setminus\Om_c^\delta` which is constituted by a microporous material.
 In particular, domain :math:`\Om_p^{\veps,\delta}\in\Om_m^\delta` represents micro pores saturated by fluid,
 whereas :math:`\Om_s^{\veps,\delta}=\Om_m^\delta\setminus\Om_p^{\veps,\delta}` is the skeleton,
-see :numref:`fig_domains`..
+see :numref:`fig_domains`.
 
 To summarize the decompositions,
 
@@ -397,11 +397,13 @@ visualised by its outline.
 References
 ----------
 
-.. [RohanTurjanicovaLukes2020] Rohan E., Turjanicová J., Lukeš V. Multiscale modelling and simulations of tissue
-   perfusion using the Biot-Darcy-Brinkman model.
-   Computers and Structures, In print, 2020,
+.. [RohanTurjanicovaLukes2020]
+   Rohan E., Turjanicová J., Lukeš V.
+   Multiscale modelling and simulations of tissue perfusion using the Biot-Darcy-Brinkman model.
+   Submitted to Computers \& Structures, 2020
 
-.. [CimrmanLukesRohan2019] Cimrman R., Lukes V., Rohan E.
+.. [CimrmanLukesRohan2019]
+   Cimrman R., Lukes V., Rohan E.
    Multiscale finite element calculations in Python using SfePy.
    Advances in Computational Mathematics, 45(4):1897-1921, 2019,
    `DOI:10.1007/s10444-019-09666-0 <https://doi.org/10.1007/s10444-019-09666-0>`_

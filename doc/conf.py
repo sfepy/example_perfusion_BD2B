@@ -144,6 +144,7 @@ htmlhelp_basename = 'example_perfusion_BD2B'
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
+    'extraclassoptions': 'openany,oneside'
 }
 
 imgmath_latex_preamble = r"""
